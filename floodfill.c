@@ -47,8 +47,8 @@ int main(int argc, char *argv[]) {
             }
         }
 
-        floodFill(grid, row, col, numRows, numCols, color);
-/*
+//        floodFill(grid, row, col, numRows, numCols, color);
+
         Stack312 s;
         makeStack(&s);
         StackEntry e;
@@ -137,7 +137,7 @@ int main(int argc, char *argv[]) {
             cell.color = color;
             grid[row][col] = cell.color;
         }
-*/
+
         showWorld(grid, numRows, numCols);
     }
 }
